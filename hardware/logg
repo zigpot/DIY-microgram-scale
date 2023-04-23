@@ -1,0 +1,1000 @@
+  997  wget https://content.instructables.com/ORIG/FSX/MX3X/HURHVJGV/FSXMX3XHURHVJGV.c
+  998  mv FSXMX3XHURHVJGV.c led_flash.c
+  999  vi led_flash.c
+ 1000  clear
+ 1001  avr-gcc -Os -DF_CPU=8000000 -mmcu=attiny85 -c led_flash.c
+ 1002  apt policy avr-gcc
+ 1003  apt policy gcc-avr
+ 1004  sudo apt install gcc-avr
+ 1005  avr-gcc -Os -DF_CPU=8000000 -mmcu=attiny85 -c led_flash.c
+ 1006  sudo apt install avr-libc
+ 1007  avr-gcc -Os -DF_CPU=8000000 -mmcu=attiny85 -c led_flash.c
+ 1008  ls
+ 1009  avr-gcc -Os -DF_CPU=8000000 -mmcu=attiny85 -c led_flash.c
+ 1010  ls
+ 1011  avr-gcc -DF_CPU=8000000 -mmcu=attiny85 -o led_flash.elf led_flash.o
+ 1012  avr-objcopy -O ihex led_flash.elf led_flash.hex
+ 1013  ubuntu-drivers devices
+ 1014  cd $HOME
+ 1015  clear
+ 1016  ubuntu-drivers devices
+ 1017  sudo ubuntu-drivers autoinstall
+ 1018  cd temp
+ 1019  git clone --recursive https://github.com/KhronosGroup/OpenCL-SDK.git
+ 1020  ls
+ 1021  cd OpenCL-SDK
+ 1022  cd ..
+ 1023  git submodule init
+ 1024  git submodule init
+ 1025  git submodule update
+ 1026  mkdir build &&cd build
+ 1027  cmake ..
+ 1028  clear
+ 1029  ls
+ 1030  cd samples
+ 1031  clear
+ 1032  ls
+ 1033  cd ,,
+ 1034  cd ..
+ 1035  ls
+ 1036  cd samples
+ 1037  clear
+ 1038  ls
+ 1039  cd core
+ 1040  ls
+ 1041  cd enumopencl
+ 1042  ls
+ 1043  vi main.cpp
+ 1044  g++ main.cpp
+ 1045  cd ..
+ 1046  ls
+ 1047  cd ..
+ 1048  ls
+ 1049  cd include
+ 1050  ls
+ 1051  cd cpp
+ 1052  ls
+ 1053  cd CL
+ 1054  ls
+ 1055  vi ~/temp/OpenCL-SDK/samples/core/enumopencl/main.cpp
+ 1056  ls
+ 1057  cd ..
+ 1058  ls
+ 1059  cd ..
+ 1060  ls
+ 1061  cd api
+ 1062  ls
+ 1063  cd CL
+ 1064  ls
+ 1065  cd ..
+ 1066  ls
+ 1067  cd ..
+ 1068  ls
+ 1069  cd cpp
+ 1070  ls
+ 1071  cd CL
+ 1072  ls
+ 1073  cd ..
+ 1074  ls
+ 1075  cd ..
+ 1076  ls
+ 1077  cd utils
+ 1078  ls
+ 1079  ls CL
+ 1080  cd CL
+ 1081  ls
+ 1082  cd utils
+ 1083  ls
+ 1084  cd ../../..
+ 1085  ls
+ 1086  cd api
+ 1087  ls
+ 1088  cd CL
+ 1089  ls
+ 1090  ls *pp
+ 1091  ls *h
+ 1092  cd ../..
+ 1093  ls
+ 1094  cd cpp
+ 1095  ls
+ 1096  cd CL
+ 1097  ls
+ 1098  sudo apt-get install nvidia-opencl-dev
+ 1099  cd Prog
+ 1100  cd ~/Prog
+ 1101  cd parallel
+ 1102  ls
+ 1103  g++ ~/temp/OpenCL-SDK/samples/core/enumopencl/hello.cpp
+ 1104  g++ ~/temp/OpenCL-SDK/samples/core/enumopencl/hello.cpp -I..//temp/OpenCL-SDK/include/cpp/CL
+ 1105  g++ ~/temp/OpenCL-SDK/samples/core/enumopencl/hello.cpp -I../temp/OpenCL-SDK/include/cpp/CL
+ 1106  vi ~/temp/OpenCL-SDK/samples/core/enumopencl/hello.cpp
+ 1107  g++ ~/temp/OpenCL-SDK/samples/core/enumopencl/vi.cpp -I..//temp/OpenCL-SDK/include/cpp/CL
+ 1108  g++ ~/temp/OpenCL-SDK/samples/core/enumopencl/main.cpp -I..//temp/OpenCL-SDK/include/cpp/CL
+ 1109  g++ ~/temp/OpenCL-SDK/samples/core/enumopencl/main.cpp -I../temp/OpenCL-SDK/include/cpp/CL
+ 1110  g++ ~/temp/OpenCL-SDK/samples/core/enumopencl/main.cpp -I../../temp/OpenCL-SDK/include/cpp/CL
+ 1111  g++ ~/temp/OpenCL-SDK/samples/core/enumopencl/main.cpp -I/home/fariz/temp/OpenCL-SDK/include/cpp/CL
+ 1112  g++ ~/temp/OpenCL-SDK/samples/core/enumopencl/main.cpp -Ihome/fariz/temp/OpenCL-SDK/include/cpp/CL
+ 1113  g++ ~/temp/OpenCL-SDK/samples/core/enumopencl/main.cpp -I../../temp/OpenCL-SDK/include/api/CL
+ 1114  g++ ~/temp/OpenCL-SDK/samples/core/enumopencl/main.cpp -Ihome/fariz/temp/OpenCL-SDK/include/api/CL
+ 1115  g++ ~/temp/OpenCL-SDK/samples/core/enumopencl/main.cpp -I/\home/fariz/temp/OpenCL-SDK/include/api/CL
+ 1116  g++ ~/temp/OpenCL-SDK/samples/core/enumopencl/main.cpp -I/home/fariz/temp/OpenCL-SDK/include/api/CL
+ 1117  g++ ~/temp/OpenCL-SDK/samples/core/enumopencl/main.cpp -I../../temp/OpenCL-SDK/include/api/CL
+ 1118  cat ../../temp/OpenCL-SDK/include/api/CL
+ 1119  g++ ~/temp/OpenCL-SDK/samples/core/enumopencl/main.cpp -I/home/fariz/temp/OpenCL-SDK/include/api/
+ 1120  wget https://gist.githubusercontent.com/ddemidov/2925717/raw/9549db3f036b57a014d20487c07e2bd65fdb4ddb/hello.cpp
+ 1121  ls
+ 1122  cp hello*1 helloCL.cpp
+ 1123  g++ helloCL.cpp
+ 1124  g++ helloCL.cpp -I~/temp/OpenCL-SDK/include/cpp
+ 1125  g++ helloCL.cpp -I../../temp/OpenCL-SDK/include/cpp
+ 1126  g++ helloCL.cpp -Ihome/fariz/temp/OpenCL-SDK/include/cpp
+ 1127  ls home/fariz/temp/OpenCL-SDK/include/cpp
+ 1128  ls /home/fariz/temp/OpenCL-SDK/include/cpp
+ 1129  g++ helloCL.cpp -I/home/fariz/temp/OpenCL-SDK/include/cpp
+ 1130  g++ helloCL.cpp
+ 1131  nvidia-smi
+ 1132  #include <stdio.h>
+ 1133  #include <stdlib.h>
+ 1134  #ifdef __APPLE__
+ 1135  #include <OpenCL/opencl.h>
+ 1136  #else
+ 1137  #include <CL/cl.h>
+ 1138  #endif
+ 1139  #define MEM_SIZE (128)
+ 1140  #define MAX_SOURCE_SIZE (0x100000)
+ 1141  int main()
+ 1142  { cl_device_id device_id = NULL; cl_context context = NULL; cl_command_queue command_queue = NULL; cl_mem memobj = NULL; cl_program program = NULL; cl_kernel kernel = NULL; cl_platform_id platform_id = NULL; cl_uint ret_num_devices; cl_uint ret_num_platforms; cl_int ret;   char string[MEM_SIZE];   FILE *fp; char fileName[] = "./hello.cl"; char *source_str; size_t source_size;   /* Load the source code containing the kernel*/; fp = fopen(fileName, "r");
+ 1143  fprintf(stderr, "Failed to load kernel.\n");
+ 1144  exit(1);
+ 1145  }
+ 1146  source_str = (char*)malloc(MAX_SOURCE_SIZE);
+ 1147  source_size = fread(source_str, 1, MAX_SOURCE_SIZE, fp);
+ 1148  fclose(fp);
+ 1149  /* Get Platform and Device Info */
+ 1150  ret = clGetPlatformIDs(1, &platform_id, &ret_num_platforms);
+ 1151  ret = clGetDeviceIDs(platform_id, CL_DEVICE_TYPE_DEFAULT, 1, &device_id, &ret_num_devices);
+ 1152  /* Create OpenCL context */
+ 1153  context = clCreateContext(NULL, 1, &device_id, NULL, NULL, &ret);
+ 1154  /* Create Command Queue */
+ 1155  command_queue = clCreateCommandQueue(context, device_id, 0, &ret);
+ 1156  /* Create Memory Buffer */
+ 1157  memobj = clCreateBuffer(context, CL_MEM_READ_WRITE,MEM_SIZE * sizeof(char), NULL, &ret);
+ 1158  /* Create Kernel Program from the source */
+ 1159  program = clCreateProgramWithSource(context, 1, (const char **)&source_str,
+ 1160  (const size_t *)&source_size, &ret);
+ 1161  /* Build Kernel Program */
+ 1162  ret = clBuildProgram(program, 1, &device_id, NULL, NULL, NULL);
+ 1163  /* Create OpenCL Kernel */
+ 1164  kernel = clCreateKernel(program, "hello", &ret);
+ 1165  /* Set OpenCL Kernel Parameters */
+ 1166  ret = clSetKernelArg(kernel, 0, sizeof(cl_mem), (void *)&memobj);
+ 1167  /* Execute OpenCL Kernel */
+ 1168  ret = clEnqueueTask(command_queue, kernel, 0, NULL,NULL);
+ 1169  /* Copy results from the memory buffer */
+ 1170  ret = clEnqueueReadBuffer(command_queue, memobj, CL_TRUE, 0,
+ 1171  MEM_SIZE * sizeof(char),string, 0, NULL, NULL);
+ 1172  /* Display Result */
+ 1173  puts(string);
+ 1174  /* Finalization */
+ 1175  ret = clFlush(command_queue);
+ 1176  ret = clFinish(command_queue);
+ 1177  ret = clReleaseKernel(kernel);
+ 1178  ret = clReleaseProgram(program);
+ 1179  ret = clReleaseMemObject(memobj);
+ 1180  ret = clReleaseCommandQueue(command_queue);
+ 1181  ret = clReleaseContext(context);
+ 1182  free(source_str);
+ 1183  return 0;
+ 1184  }clear
+ 1185  vi helloCL.cpp
+ 1186  vi hello.c
+ 1187  vi helloCL.c
+ 1188  gcc helloCL.c
+ 1189  vi
+ 1190  vi helloCL.c
+ 1191  gcc helloCL.c
+ 1192  clinfo
+ 1193  dpkf
+ 1194  dpkg
+ 1195  dpkg -s
+ 1196  dpkg -s ti-opencl
+ 1197  cd Prog
+ 1198  cd mcu
+ 1199  cd asm
+ 1200  ls
+ 1201  clear
+ 1202  ls
+ 1203  vi hello.asm
+ 1204  clear
+ 1205  history
+ 1206  avrdude -c
+ 1207  avrdude -c stk500v1
+ 1208  avrdude -c stk500v1 >& log
+ 1209  vi log
+ 1210  avrdude -c stk500v1s >& log
+ 1211  vi log
+ 1212  avrdude -c stk500v1 -p Attiny85
+ 1213  dmesg
+ 1214  avrdude -c stk500v1 -p Attiny85 -P /dev/ttyACM0 -U
+ 1215  avrdude -c stk500v1 -p Attiny85 -P /dev/ttyACM0 -U flash:w:hello.hex
+ 1216  avrdude -c stk500v1 -p Attiny85 -P /dev/ttyACM0 -b 119200 -U flash:w:hello.hex
+ 1217  vi hello.asm
+ 1218  avra hello.asm
+ 1219  avrdude -c stk500v1 -p Attiny85 -P /dev/ttyACM0 -b 119200 -U flash:w:hello.hex
+ 1220  vi hello.asm
+ 1221  avra hello.asm
+ 1222  avrdude -c stk500v1 -p Attiny85 -P /dev/ttyACM0 -b 119200 -U flash:w:hello.hex
+ 1223  avra hello.asm
+ 1224  avrdude -c stk500v1 -p Attiny85 -P /dev/ttyACM0 -b 119200 -U flash:w:c.hex
+ 1225  vi c.asm
+ 1226  avra hello.asm
+ 1227  avra c.asm
+ 1228  avrdude -c stk500v1 -p Attiny85 -P /dev/ttyACM0 -b 119200 -U flash:w:c.hex
+ 1229  vi c.asm
+ 1230  avra c.asm
+ 1231  avrdude -c stk500v1 -p Attiny85 -P /dev/ttyACM0 -b 119200 -U flash:w:c.hex
+ 1232  avra c.asm
+ 1233  vi c.asm
+ 1234  avra c.asm
+ 1235  avrdude -c stk500v1 -p Attiny85 -P /dev/ttyACM0 -b 119200 -U flash:w:c.hex
+ 1236  clear
+ 1237  ls
+ 1238  sudo halt
+ 1239  #include <stdio.h>
+ 1240  #include <conio.h>
+ 1241  #include <iostream.h>
+ 1242  main() {
+ 1243  new
+ 1244  terminal
+ 1245  droidcam
+ 1246  cd Prog
+ 1247  ls
+ 1248  vi piest.cpp
+ 1249  g++ piest.cpp -o piest
+ 1250  vi piest.cpp
+ 1251  g++ piest.cpp -o piest
+ 1252  ./piest
+ 1253  vi piest.cpp
+ 1254  g++ piest.cpp -o piest
+ 1255  ./piest
+ 1256  vi piest.cpp
+ 1257  g++ piest.cpp -o piest
+ 1258  ./piest
+ 1259  droidcam
+ 1260  cd /tmp/arduino_build_822795/
+ 1261  ls
+ 1262  cd ~
+ 1263  clear
+ 1264  ls
+ 1265  cd Prog
+ 1266  ls
+ 1267  cd string
+ 1268  ls
+ 1269  clear
+ 1270  ls
+ 1271  vi input
+ 1272  vi separate.cpp
+ 1273  vi
+ 1274  cd /tmp/arduino_build_171560/
+ 1275  ls
+ 1276  exit
+ 1277  ls
+ 1278  g++ separate.cpp
+ 1279  g++ separate.cpp -o separate
+ 1280  ./separate
+ 1281  g++ separate.cpp -o separate
+ 1282  ./separate
+ 1283  g++ separate.cpp -o separate
+ 1284  ./separate
+ 1285  g++ separate.cpp -o separate
+ 1286  ./separate
+ 1287  g++ separate.cpp -o separate
+ 1288  ./separate
+ 1289  g++ separate.cpp -o separate
+ 1290  ./separate
+ 1291  g++ separate.cpp -o separate
+ 1292  ./separate
+ 1293  g++ separate.cpp -o separate
+ 1294  ./separate
+ 1295  g++ separate.cpp -o separate
+ 1296  ./separate
+ 1297  g++ separate.cpp -o separate
+ 1298  ./separate
+ 1299  g++ separate.cpp -o separate
+ 1300  ./separate
+ 1301  ./separate > log
+ 1302  vi log
+ 1303  exit
+ 1304  ls
+ 1305  nvidia
+ 1306  nvidia-setting
+ 1307  nvidia-settings
+ 1308  sudo apt-cache policy nvidia-340
+ 1309  which nvidia-smi
+ 1310  history > log
+ 1311  vi log
+ 1312  ssh dike004@efisonlt.com -p 2224
+ 1313  cd temp
+ 1314  wget http://developer.download.nvidia.com/compute/DevZone/OpenCL/Projects/oclMatVecMul.tar.gz
+ 1315  ls
+ 1316  tar -xzf oclMatVecMul.tar.gz
+ 1317  ls
+ 1318  cd ocl*
+ 1319  ssh dike004@efisonlt.com -p 2224
+ 1320  cd temp
+ 1321  ls
+ 1322  cd nvidia
+ 1323  ls
+ 1324  sudo sh cuda_11.1.1_455.32.00_linux.run
+ 1325  dpkg -l | nvidia
+ 1326  dpkg -l | grep nvidia
+ 1327  sudo apt purge cuda
+ 1328  sudo apt-get remove --purge '^nvidia-.*'
+ 1329  sudo apt-get install ubuntu-desktop
+ 1330  echo 'nouveau' | sudo tee -a /etc/modules
+ 1331  cat /etc/X11/xorg.conf
+ 1332  sudo rm /etc/X11/xorg.conf
+ 1333  wget http://developer.download.nvidia.com/compute/DevZone/OpenCL/Projects/oclMatVecMul.tar.gz
+ 1334  rm ocl*gz
+ 1335  ls
+ 1336  sudo sh cuda_11.1.1_455.32.00_linux.run
+ 1337  sudo reboot
+ 1338  exit
+ 1339  /var/log/nvidia-uninstall.log
+ 1340  vi /var/log/nvidia-uninstall.log
+ 1341  exit
+ 1342  cd /usr/share/nvidia
+ 1343  ls
+ 1344  exit
+ 1345  cd /var/share
+ 1346  ls /
+ 1347  cd /usr/share/nvidia
+ 1348  ls
+ 1349  dpkg -l | grep nvidia
+ 1350  sudo apt purge linux-modules-nvidia-455-5.4.0-54-generic
+ 1351  lsmod | grep nouveau
+ 1352  vi /var/log/nvidia-installer.log
+ 1353  view /var/log/nvidia-installer.log
+ 1354  view /var/log/cuda-installer.log
+ 1355  view /var/log/nvidia-installer.log
+ 1356  cd temp/nvidia
+ 1357  ls
+ 1358  sudo sh cuda_11.1.1_455.32.00_linux.run
+ 1359  clear
+ 1360  nvcc
+ 1361  sudo apt-get policy nvidia-cuda-toolkit
+ 1362  sudo apt-cache policy nvidia-cuda-toolkit
+ 1363  ls
+ 1364  nvidia-smi
+ 1365  dpkg -l | grep Nvidia
+ 1366  dpkg -l | grep nvidia
+ 1367  dpkg -l | grep kicad
+ 1368  clear
+ 1369  dpkg -l | grep nvidia
+ 1370  sudo apt purge *nvidia*
+ 1371  sudo nvidia-uninstall
+ 1372  sudo sh cuda_11.1.1_455.32.00_linux.run
+ 1373  dpkg -l | grep nvidia
+ 1374  sudo apt autoremove
+ 1375  sudo apt autoclean
+ 1376  sudo sh cuda_11.1.1_455.32.00_linux.run
+ 1377  vi Installation failed. See log at /var/log/cuda-installer.log for details.
+ 1378  vi /var/log/cuda-installer.log for details.
+ 1379  vi /var/log/cuda-installer.log
+ 1380  modprobe -r nvidia-drm
+ 1381  systemctl isolate multi-user.target
+ 1382  view /var/log/nvidia-install.log
+ 1383  view /var/log/nvidia-installer.log
+ 1384  clear
+ 1385  sudo reboot
+ 1386  modprobe -r nvidia-drm
+ 1387  vi /var/log/nvidia-install.log
+ 1388  vi /var/log/nvidia-installer.log
+ 1389  clear
+ 1390  sudo reboot
+ 1391  ssh dike004@efisonlt.com -p 2224
+ 1392  exit
+ 1393  find . -name "*cl*"
+ 1394  find . -name "*cl*" > ~/clfind
+ 1395  vi ~/clfind
+ 1396  clear
+ 1397  exit
+ 1398  cd /
+ 1399  ls
+ 1400  cd usr
+ 1401  ls
+ 1402  cd lib
+ 1403  ls
+ 1404  ls *cl*
+ 1405  ls *mp*
+ 1406  cd ..
+ 1407  ls
+ 1408  cd local
+ 1409  ls
+ 1410  cd lib
+ 1411  ls
+ 1412  cd ..
+ 1413  ls
+ 1414  cd lib32
+ 1415  ls
+ 1416  cd ..
+ 1417  find . -name "*gmp*"
+ 1418  exit
+ 1419  cd ~/temp
+ 1420  ls
+ 1421  cd arduino-cli
+ 1422  ls
+ 1423  ./arduino-cli
+ 1424  clear
+ 1425  cp ~/Prog/mcu/timerint.c timerint.ino
+ 1426  cp ~/Prog/mcu/timeint.c timeint.ino
+ 1427  ./arduino-cli timeint.ino
+ 1428  ./arduino-cli
+ 1429  ./arduino-cli compile
+ 1430  ls
+ 1431  mkdir timeint
+ 1432  mv timeint.ino timeint
+ 1433  clear
+ 1434  ls
+ 1435  cd timeint
+ 1436  ls
+ 1437  cd 
+ 1438  cd -
+ 1439  cd ..
+ 1440  cd b*
+ 1441  ls
+ 1442  cd ..
+ 1443  clear
+ 1444  ls
+ 1445  ./arduino-cli compile
+ 1446  ./arduino-cli compile -fqbn
+ 1447  ./arduino-cli board
+ 1448  ./arduino-cli board list
+ 1449  ./arduino-cli board listall
+ 1450  exit
+ 1451  avr-gcc -Os -DF_CPU=8000000 -mmcu=attiny85 -c led_flash.c
+ 1452  vi led_flash.c
+ 1453  avr-gcc -Os -DF_CPU=8000000 -mmcu=attiny85 -c timeint.c
+ 1454  avr-gcc -Os -DF_CPU=16000000 -mmcu=atmega328p -c timeint.c
+ 1455  ./arduino-clo
+ 1456  ./arduino-cli
+ 1457  exit
+ 1458  nvidia-smi
+ 1459  sudo apt-cache policy nvidia-340
+ 1460  sudo apt-cache policy nvidia-440
+ 1461  sudo apt-cache policy nvidia
+ 1462  nvidia-settings
+ 1463  which nvidia-smi
+ 1464  clinfo
+ 1465  cd Prog/parallel
+ 1466  ls
+ 1467  clear
+ 1468  cat cl_hello.cpp
+ 1469  g++ -std=c++0x -o cl_hello cl_hello.cpp -lOpenCL
+ 1470  g++ -std=c++0x -o cl_hello cl_hello.cpp
+ 1471  ls
+ 1472  vi lol.cpp
+ 1473  g++ lol.cpp
+ 1474  g++ lol.cpp -lOpenCL
+ 1475  g++ -std=c++0x -o cl_hello cl_hello.cpp -I./local/cuda-11.1/targets/x86_64-linux/include/
+ 1476  g++ -std=c++0x -o cl_hello cl_hello.cpp -I/local/cuda-11.1/targets/x86_64-linux/include/
+ 1477  g++ -I/local/cuda-11.1/targets/x86_64-linux/include -std=c++0x -o cl_hello cl_hello.cpp
+ 1478  g++ -I/local/cuda-11.1/targets/x86_64-linux/include/CL -std=c++0x -o cl_hello cl_hello.cpp
+ 1479  g++ -I/local/cuda-11.1/targets/x86_64-linux/include/CL/cl.hpp -std=c++0x -o cl_hello cl_hello.cpp
+ 1480  g++ -std=c++0x -o cl_hello cl_hello.cpp -I/usr/local/cuda-11.1/targets/x86_64-linux/include/
+ 1481  ./cl_hello
+ 1482  ls
+ 1483  g++ -std=c++0x -o cl_hello cl_hello.cpp -I/usr/local/cuda-11.1/targets/x86_64-linux/include/
+ 1484  ssh dike004@efisonlt.com -p 2224
+ 1485  apt-get install opencl-headers
+ 1486  sudo apt-get install opencl-headers
+ 1487  g++ -std=c++0x -o cl_hello cl_hello.cpp
+ 1488  g++ -std=c++0x -o cl_hello cl_hello.cpp -lOpenCL
+ 1489  vi cl_hello.cpp
+ 1490  g++ -std=c++0x -o cl_hello cl_hello.cpp -lOpenCL
+ 1491  sudo apt remove opencl-c-headers opencl-clhpp-headers opencl-headers
+ 1492  clear
+ 1493  g++ -std=c++0x -o cl_hello cl_hello.cpp -lOpenCL
+ 1494  g++ -std=c++0x -o cl_hello cl_hello.cpp -I/usr/local/cuda-11.1/targets/x86_64-linux/include/
+ 1495  mkdir hello
+ 1496  ls
+ 1497  cd hello
+ 1498  ls
+ 1499  mkdir hellocl
+ 1500  cd hellocl
+ 1501  vi hello.cl
+ 1502  vi hello.c
+ 1503  gcc hello.c
+ 1504  gcc hello.c -lOpenCL
+ 1505  gcc hello.c -lOpenCL -I
+ 1506  g++ -std=c++0x -o cl_hello cl_hello.cpp -I/usr/local/cuda-11.1/targets/x86_64-linux/include/#include <stdio.h>
+ 1507  #include <stdlib.h>
+ 1508  #ifdef __APPLE__
+ 1509  #include <OpenCL/opencl.h>
+ 1510  #else
+ 1511  #include <CL/cl.h>
+ 1512  #endif
+ 1513  #define MEM_SIZE (128)
+ 1514  #define MAX_SOURCE_SIZE (0x100000)
+ 1515  int main()
+ 1516  { cl_device_id device_id = NULL; cl_context context = NULL; cl_command_queue command_queue = NULL; cl_mem memobj = NULL; cl_program program = NULL; cl_kernel kernel = NULL; cl_platform_id platform_id = NULL; cl_uint ret_num_devices; cl_uint ret_num_platforms; cl_int ret;   char string[MEM_SIZE];   FILE *fp; char fileName[] = "./hello.cl"; char *source_str; size_t source_size;   /* Load the source code containing the kernel*/; fp = fopen(fileName, "r");
+ 1517  if (fprintf(stderr, "Failed to load kernel.\n");) {
+ 1518  fprintf(stderr, "Failed to load kernel.\n");
+ 1519  exit(1);
+ 1520  }
+ 1521  source_str = (char*)malloc(MAX_SOURCE_SIZE);
+ 1522  source_size = fread(source_str, 1, MAX_SOURCE_SIZE, fp);
+ 1523  fclose(fp);
+ 1524  /* Get Platform and Device Info */
+ 1525  ret = clGetPlatformIDs(1, &platform_id, &ret_num_platforms);
+ 1526  ret = clGetDeviceIDs(platform_id, CL_DEVICE_TYPE_DEFAULT, 1, &device_id, &ret_num_devices);
+ 1527  /* Create OpenCL context */
+ 1528  context = clCreateContext(NULL, 1, &device_id, NULL, NULL, &ret);
+ 1529  /* Create Command Queue */
+ 1530  command_queue = clCreateCommandQueue(context, device_id, 0, &ret);
+ 1531  /* Create Memory Buffer */
+ 1532  memobj = clCreateBuffer(context, CL_MEM_READ_WRITE,MEM_SIZE * sizeof(char), NULL, &ret);
+ 1533  /* Create Kernel Program from the source */
+ 1534  program = clCreateProgramWithSource(context, 1, (const char **)&source_str,
+ 1535  (const size_t *)&source_size, &ret);
+ 1536  /* Build Kernel Program */
+ 1537  ret = clBuildProgram(program, 1, &device_id, NULL, NULL, NULL);
+ 1538  /* Create OpenCL Kernel */
+ 1539  kernel = clCreateKernel(program, "hello", &ret);
+ 1540  /* Set OpenCL Kernel Parameters */
+ 1541  ret = clSetKernelArg(kernel, 0, sizeof(cl_mem), (void *)&memobj);
+ 1542  /* Execute OpenCL Kernel */
+ 1543  ret = clEnqueueTask(command_queue, kernel, 0, NULL,NULL);
+ 1544  /* Copy results from the memory buffer */
+ 1545  ret = clEnqueueReadBuffer(command_queue, memobj, CL_TRUE, 0,
+ 1546  MEM_SIZE * sizeof(char),string, 0, NULL, NULL);
+ 1547  /* Display Result */
+ 1548  puts(string);
+ 1549  /* Finalization */
+ 1550  ret = clFlush(command_queue);
+ 1551  ret = clFinish(command_queue);
+ 1552  ret = clReleaseKernel(kernel);
+ 1553  ret = clReleaseProgram(program);
+ 1554  ret = clReleaseMemObject(memobj);
+ 1555  ret = clReleaseCommandQueue(command_queue);
+ 1556  ret = clReleaseContext(context);
+ 1557  free(source_str);
+ 1558  return 0;
+ 1559  }clear
+ 1560  clear
+ 1561  gcc hello.c -lOpenCL -I
+ 1562  gcc hello.c -lOpenCL -I/usr/local/cuda-11.1/targets/x86_64-linux/include
+ 1563  ./a.out
+ 1564  clear
+ 1565  scp dike004@efison.lt -p2224 hello.c
+ 1566  ls
+ 1567  scp dike004@efison.lt -p2224
+ 1568  scp hello.c dike004@efison.lt -p2224
+ 1569  scp hello.c dike004@efison.lt:2224
+ 1570  scp hello.c dike004@efisonlt.com:2224
+ 1571  scp hello.c dike004@efisonlt.com:~
+ 1572  scp hello.c dike004@efisonlt.com:~ -p 2224
+ 1573  scp hello.c dike004@efisonlt.com:~ -P 2224
+ 1574  scp hello.c dike004@efisonlt.com:~ -P2224
+ 1575  scp hello.c -P2224 dike004@efisonlt.com
+ 1576  scp -P 2224 dike004@efisonlt.com
+ 1577  scp -P 2224 hello.c dike004@efisonlt.com
+ 1578  scp -P 2224 hello.c dike0014@efisonlt.com
+ 1579  scp -P 2224 hello.c dike004@efisonlt.com:2224
+ 1580  scp hello.c dike004@efisonlt.com:2224
+ 1581  scp -P 2224 hello.c dike004@efisonlt.com:2224
+ 1582  scp -P 2224 hello.c dike004@efisonlt.com:~
+ 1583  ls
+ 1584  scp -P 2224 hello.cl dike004@efisonlt.com:~
+ 1585  clear
+ 1586  cd ../../mcu
+ 1587  ls
+ 1588  history > history
+ 1589  vi history
+ 1590  ls
+ 1591  cd asm
+ 1592  clear
+ 1593  ls
+ 1594  vi ../history
+ 1595  cd ..
+ 1596  timeint.c
+ 1597  vi timeint.c
+ 1598  avr-gcc timeint.c
+ 1599  vi ../history
+ 1600  gcc-avr timeint.c
+ 1601  vi ../history
+ 1602  vi history
+ 1603  avr-gcc -DF_CPU=8000000 -mmcu=attiny85 -o led_flash.elf led_flash.o
+ 1604  vi history
+ 1605  ls
+ 1606  vi history
+ 1607  cd
+ 1608  clear
+ 1609  sudo apt install rainbowstream
+ 1610  sudo pip3 install rainbowstream
+ 1611  rainbowstream
+ 1612  clear
+ 1613  sptui
+ 1614  spt
+ 1615  sudo apt install screenfetch
+ 1616  sudo apt install archey
+ 1617  screenfetch
+ 1618  clear
+ 1619  man screenfetch
+ 1620  screenfetch
+ 1621  sudo apt install neofetch
+ 1622  clear
+ 1623  rainbowstream
+ 1624  echo $PREFIX
+ 1625  echo PREFIX
+ 1626  exit
+ 1627  ./configure
+ 1628  make
+ 1629  sudo make install
+ 1630  ffmpeg
+ 1631  man ffmpeg
+ 1632  clear
+ 1633  rainbowstream
+ 1634  clear
+ 1635  exit
+ 1636  configure --help
+ 1637  ./configure --help
+ 1638  ./configure --help > log
+ 1639  vi log
+ 1640  quit
+ 1641  exit
+ 1642  cd temp
+ 1643  mkdir ffmpeg
+ 1644  cd ffmpeg
+ 1645  git clone https://git.ffmpeg.org/ffmpeg.git ffmpeg
+ 1646  ls
+ 1647  cd ffmpeg
+ 1648  ls
+ 1649  vi README.md
+ 1650  vi INSTALL.md
+ 1651  exit
+ 1652  w3m
+ 1653  w3m id.wikipedia.org
+ 1654  w3m projecteuler.org
+ 1655  w3m duckduckgo.com
+ 1656  ffmpeg
+ 1657  man ffmpeg
+ 1658  droidcam
+ 1659  ffmpeg
+ 1660  ffmpeg -i ivk-ycxk-mfe.mp4 -i ivk-ycxk-mfe.wav -c:v copy -c:a aac -map 0:v:0 -map 1:a:0 output.mp4
+ 1661  ffmpeg output.mp4 -ss 00:00:37 -to 00:18:03 -c:v copy -c:a copy output2.mp4
+ 1662  ffmpeg -i output.mp4 -ss 00:00:37 -to 00:18:03 -c:v copy -c:a copy output2.mp4
+ 1663  cd Prog/parallel
+ 1664  mkdir gausselim
+ 1665  cd gausselim
+ 1666  vi test.c
+ 1667  gcc *
+ 1668  ./a.out
+ 1669  clear
+ 1670  vi test.c
+ 1671  cp test.c gauss.c
+ 1672  vi gauss.c
+ 1673  cp test.c gauss_.c
+ 1674  vi gauss_.c
+ 1675  gcc gauss_.c
+ 1676  vi gauss_.c
+ 1677  gcc gauss_.c
+ 1678  ./a.out
+ 1679  vi gauss_.c
+ 1680  gcc gauss_.c
+ 1681  ./a.out
+ 1682  vi gauss_.c
+ 1683  gcc gauss_.c
+ 1684  gcc -g gauss_.c
+ 1685  valgrind ./a.out
+ 1686  vi gauss_.c
+ 1687  gcc gauss_.c
+ 1688  ./a.out
+ 1689  vi gauss_.c
+ 1690  exit
+ 1691  vi eriksmistad.c
+ 1692  vi vector_add_kernel.cl
+ 1693  gcc eriksmistad.c -o vectorAddition -l OpenCL
+ 1694  gcc eriksmistad.c -o vectorAddition -lOpenCL
+ 1695  vi eriksmistad.c
+ 1696  sudo apt install opencl-headers
+ 1697  gcc eriksmistad.c -o vectorAddition -lOpenCL
+ 1698  ls
+ 1699  ./vectorAddition
+ 1700  vi eriksmistad.c
+ 1701  exit
+ 1702  vi eriksmistad.c
+ 1703  scp kern1.cl remote_username@efisonlt.com:/homeuser/dike004/tugasreza
+ 1704  scp kern1.cl dike004@efisonlt.com:/homeuser/dike004/tugasreza
+ 1705  scp kern1.cl -p 2224 dike004@efisonlt.com:/homeuser/dike004/tugasreza
+ 1706  scp kern1.cl -p2224 dike004@efisonlt.com:/homeuser/dike004/tugasreza
+ 1707  scp kern1.cl -P2224 dike004@efisonlt.com:/homeuser/dike004/tugasreza
+ 1708  scp kern1.cl -P 2224 dike004@efisonlt.com:/homeuser/dike004/tugasreza
+ 1709  scp -P2224 kern1.cl dike004@efisonlt.com:/homeuser/dike004/tugasreza
+ 1710  scp -P2224 kern2.cl dike004@efisonlt.com:/homeuser/dike004/tugasreza
+ 1711  scp -P2224 main.c dike004@efisonlt.com:/homeuser/dike004/tugasreza
+ 1712  exit
+ 1713  w3m google.com
+ 1714  exit
+ 1715  wget http://img.ichunt.com/doc/pdf/cms/201809/17/11f609a94fdbfa8b40dca2300d189043.pdf
+ 1716  clear
+ 1717  ls
+ 1718  rm 2010511153132440.pdf
+ 1719  mv ~/Downloads/2010511153132440.pdf .
+ 1720  clear
+ 1721  ls
+ 1722  w3m google.com
+ 1723  cd Prog/parallel
+ 1724  mkdir jawastitip
+ 1725  cd jawastitip
+ 1726  clear
+ 1727  cp ~/Downloads/main.c .
+ 1728  cp ~/Downloads/kernel1.cl .
+ 1729  cp ~/Downloads/kern1.cl .
+ 1730  cp ~/Downloads/kern2.cl .
+ 1731  clear
+ 1732  gcc main.c -lOpenCL
+ 1733  vi main.c
+ 1734  gcc main.c -lOpenCL
+ 1735  vi main.c
+ 1736  gcc main.c -lOpenCL
+ 1737  vi main.c
+ 1738  gcc main.c -lOpenCL
+ 1739  vi main.c
+ 1740  gcc main.c -lOpenCL
+ 1741  vi main.c
+ 1742  gcc main.c -lOpenCL
+ 1743  vi main.c
+ 1744  gcc main.c -lOpenCL
+ 1745  vi main.c
+ 1746  clear
+ 1747  ssh dike004@efisonlt.com -p2224
+ 1748  clear
+ 1749  ls
+ 1750  cd ..
+ 1751  clear
+ 1752  ls
+ 1753  rm -rf jawastitip
+ 1754  cd reza
+ 1755  ls
+ 1756  cd ..
+ 1757  rm -rf reza
+ 1758  cd gausselim
+ 1759  ls
+ 1760  vi gauss_.c
+ 1761  cd ~/
+ 1762  ls
+ 1763  mv /hello/microgram .
+ 1764  mv ./hello/microgram .
+ 1765  ls
+ 1766  cd hello
+ 1767  ls
+ 1768  cd ..
+ 1769  mv ./hello/microgram_scale .
+ 1770  cd ./hello
+ 1771  ls
+ 1772  cd ..
+ 1773  ls
+ 1774  cd microgram_scale
+ 1775  clear
+ 1776  ls
+ 1777  mkdir datasheets
+ 1778  cd datasheets
+ 1779  wget https://pdf.dzsc.com/99999/2010511153132440.pdf
+ 1780  wget https://www.ti.com/lit/ds/slos080p/slos080p.pdf?ts=1606959280025&ref_url=https%253A%252F%252Fwww.google.com%252F
+ 1781  ls
+ 1782  wget https://www.ti.com/lit/ds/slos080p/slos080p.pdf
+ 1783  wget https://www.vishay.com/docs/81147/tcst2103.pdf
+ 1784  ls
+ 1785  cd ~
+ 1786  clear
+ 1787  ls
+ 1788  cd Prog/parallel
+ 1789  clear
+ 1790  mkdir jawaslagi
+ 1791  cd jawaslagi
+ 1792  sudo git clone https://github.com/JuliaParallel/rodinia
+ 1793  ls
+ 1794  sudo git clone https://github.com/JuliaParallel/rodinia
+ 1795  vim gauss.c
+ 1796  ls
+ 1797  vi gausselim.c
+ 1798  exit
+ 1799  vi gauss_.c
+ 1800  exit
+ 1801  vi gauss_.c
+ 1802  exit
+ 1803  ls
+ 1804  gcc gauss_.c
+ 1805  ./a.out
+ 1806  gcc gauss_.c
+ 1807  gcc gauss_.c -l OpenCL
+ 1808  gcc gauss_.c -lOpenCL
+ 1809  gcc -lOpenCL gauss_.c
+ 1810  gcc -fOpenCL gauss_.c
+ 1811  gcc -lOpenCL gauss_.c
+ 1812  ls
+ 1813  gcc -lOpenCL
+ 1814  gcc -lOpenCL eriksmistad.c
+ 1815  history > log
+ 1816  vi log
+ 1817  gcc eriksmistad.c -o eriksmistad -lOpenCL
+ 1818  gcc eriksmistad.c -o eriksmistad
+ 1819  gcc eriksmistad.c -o eriksmistad -lOpencL
+ 1820  gcc eriksmistad.c -o eriksmistad -lOpenc
+ 1821  gcc eriksmistad.c -o eriksmistad -lOpenCL
+ 1822  ls
+ 1823  ./eriksmistad
+ 1824  clear
+ 1825  gcc -lOpenCL gauss_.c -o gauss_
+ 1826  ls
+ 1827  gcc gauss_.c -o gauss_ -lOpenCL
+ 1828  ls
+ 1829  ./gauss
+ 1830  ./gauss_
+ 1831  gcc gauss_.c -o gauss_ -lOpenCL
+ 1832  ./gauss_
+ 1833  gcc gauss_.c -o gauss_ -lOpenCL
+ 1834  ls
+ 1835  gcc gauss_.c -o gauss_ -lOpenCL
+ 1836  ls
+ 1837  gcc gauss.c -o gauss
+ 1838  bi gauss.c
+ 1839  vi gauss.c
+ 1840  gcc gauss.c -o gauss
+ 1841  vi gauss.c
+ 1842  gcc gauss.c -o gauss
+ 1843  vi gauss.c
+ 1844  rm gauss.c
+ 1845  vi gauss.c
+ 1846  gcc gauss.c -o gauss
+ 1847  ./gauss
+ 1848  gcc gauss_.c -o gauss_ -lOpenCL
+ 1849  ./gauss_
+ 1850  ./gauss
+ 1851  ./gauss_
+ 1852  ./gauss
+ 1853  gcc gauss_.c -o gauss_ -lOpenCL
+ 1854  ./gauss_
+ 1855  ./gauss
+ 1856  ./gauss_
+ 1857  ./gauss
+ 1858  ./gauss_
+ 1859  ./gauss
+ 1860  ./gauss_
+ 1861  cp gauss_.c jawas.c
+ 1862  vi jawas.c
+ 1863  exit
+ 1864  gcc -o jawas jawas.c
+ 1865  gcc -o jawas jawas.c -lOpenCL
+ 1866  ./jawas
+ 1867  ./gauss
+ 1868  ./gauss_
+ 1869  exit
+ 1870  ls
+ 1871  cd ..
+ 1872  cd jawaslagi
+ 1873  clear
+ 1874  ls
+ 1875  cd rodinia
+ 1876  ls
+ 1877  cd opencl
+ 1878  ls
+ 1879  cd gaussian
+ 1880  ls
+ 1881  make
+ 1882  vi run
+ 1883  sudo make
+ 1884  ls
+ 1885  ./gaussian
+ 1886  gaussianElimination
+ 1887  ./gaussianElimination
+ 1888  ./gaussian
+ 1889  ./gaussian -h
+ 1890  run
+ 1891  ./run
+ 1892  vi matrix4.txt
+ 1893  ls
+ 1894  vi README*
+ 1895  clear
+ 1896  ls
+ 1897  vi gaussian.cpp
+ 1898  exit
+ 1899  wget https://raw.githubusercontent.com/JuliaParallel/rodinia/master/opencl/gaussian/gaussian.cpp
+ 1900  ls
+ 1901  wget https://raw.githubusercontent.com/JuliaParallel/rodinia/master/opencl/gaussian/gaussian.h
+ 1902  wget https://github.com/JuliaParallel/rodinia/blob/master/opencl/gaussian/Makefile
+ 1903  sudo git clone https://github.com/JuliaParallel/rodinia/tree/master/opencl/gaussian
+ 1904  ls
+ 1905  wget https://raw.githubusercontent.com/JuliaParallel/rodinia/master/opencl/gaussian/OriginalParallel.c
+ 1906  wget https://raw.githubusercontent.com/JuliaParallel/rodinia/master/opencl/gaussian/clutils.cpp
+ 1907  ls
+ 1908  wget https://raw.githubusercontent.com/JuliaParallel/rodinia/master/opencl/gaussian/clutils.h
+ 1909  wget https://raw.githubusercontent.com/JuliaParallel/rodinia/master/opencl/gaussian/gaussianElim_kernels.cl
+ 1910  wget https://raw.githubusercontent.com/JuliaParallel/rodinia/master/opencl/gaussian/gettimeofday.cpp
+ 1911  wget https://raw.githubusercontent.com/JuliaParallel/rodinia/master/opencl/gaussian/gettimeofday.h
+ 1912  wget https://raw.githubusercontent.com/JuliaParallel/rodinia/master/opencl/gaussian/run
+ 1913  l
+ 1914  ls
+ 1915  wget https://raw.githubusercontent.com/JuliaParallel/rodinia/master/opencl/gaussian/utils.cpp
+ 1916  wget https://raw.githubusercontent.com/JuliaParallel/rodinia/master/opencl/gaussian/utils.h
+ 1917  ls
+ 1918  make
+ 1919  vi makefile
+ 1920  vi Makefile
+ 1921  rm Makefile
+ 1922  wget https://raw.githubusercontent.com/JuliaParallel/rodinia/master/opencl/gaussian/Makefile
+ 1923  make
+ 1924  vi Makefile
+ 1925  wget https://raw.githubusercontent.com/JuliaParallel/rodinia/master/opencl/common.mk
+ 1926  vi Makefile
+ 1927  make
+ 1928  vi Makefile
+ 1929  vi comm*
+ 1930  make
+ 1931  clear
+ 1932  ls
+ 1933  cd ..
+ 1934  ls
+ 1935  cd gausselim
+ 1936  ls
+ 1937  clear
+ 1938  ls
+ 1939  clear
+ 1940  ls
+ 1941  vi gauss_.c
+ 1942  exit
+ 1943  cd Prog/parallel/gausseim
+ 1944  cd Prog/parallel/gausselim
+ 1945  ls
+ 1946  vi gauss_.c
+ 1947  gcc gauss_.c
+ 1948  vi gauss_.c
+ 1949  exit
+ 1950  gcc -o gauss gauss_.c -lOpenCL
+ 1951  gcc -o gauss_ gauss_.c -lOpenCL
+ 1952  gcc -o gauss_ gauss_.c
+ 1953  gcc -o gauss_ gauss_.c -lOpenCL
+ 1954  ./gauss_
+ 1955  ./gauss
+ 1956  rm gauss.c
+ 1957  vi gauss.c
+ 1958  gcc gauss.c -o gauss
+ 1959  ./gauss
+ 1960  exit
+ 1961  sudo snap connect:audacity alsa
+ 1962  vi
+ 1963  cd Prog
+ 1964  ls
+ 1965  cd tugas_incer
+ 1966  ls
+ 1967  clear
+ 1968  ls
+ 1969  g++ -g knn.cpp knn
+ 1970  g++ -g knn.cpp -o knn
+ 1971  valgrind ./knn
+ 1972  g++ -g nb.cpp -o nb
+ 1973  valgrind ./nb
+ 1974  ls -al
+ 1975  valgrind ./knn
+ 1976  sudo apt install pavucontrol
+ 1977  pavucontrol
+ 1978  clipboard
+ 1979  w3m https://www.bbc.com/mundo/noticias-55240798
+ 1980  vi log
+ 1981  history > logx
+ 1982  vi logx
+ 1983  rm logx
+ 1984  sudo apt remove calibre
+ 1985  sudo apt install okular
+ 1986  sudo apt remove calibre
+ 1987  sudo apt autoremove
+ 1988  OKULAR
+ 1989  okular
+ 1990  sudo snap install okular
+ 1991  okular
+ 1992  i3w
+ 1993  w3m google.es
+ 1994  vi
+ 1995  exit
+ 1996  history > logg
